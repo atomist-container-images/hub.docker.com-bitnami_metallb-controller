@@ -1,12 +1,15 @@
-# Tags: latest, 0.12.1-debian-10-r71, 0.12.1, 0-debian-10, 0
+# Tags: latest, 0.12.1-debian-10-r72, 0.12.1, 0-debian-10, 0
 FROM bitnami/metallb-controller:latest
-FROM bitnami/metallb-controller:0.12.1-debian-10-r71
+FROM bitnami/metallb-controller:0.12.1-debian-10-r72
 FROM bitnami/metallb-controller:0.12.1
 FROM bitnami/metallb-controller:0-debian-10
 FROM bitnami/metallb-controller:0
 
 # Tags: _
 FROM bitnami/metallb-controller:_
+
+# Tags: 0.12.1-debian-10-r71
+FROM bitnami/metallb-controller:0.12.1-debian-10-r71
 
 # Tags: 0.12.1-debian-10-r70
 FROM bitnami/metallb-controller:0.12.1-debian-10-r70
@@ -88,6 +91,3 @@ FROM bitnami/metallb-controller:0.12.1-debian-10-r45
 
 # Tags: 0.12.1-debian-10-r44
 FROM bitnami/metallb-controller:0.12.1-debian-10-r44
-
-# Tags: 0.12.1-debian-10-r43
-FROM bitnami/metallb-controller:0.12.1-debian-10-r43
